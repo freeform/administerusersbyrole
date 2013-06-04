@@ -1,0 +1,7 @@
+name = Administer Users by Role
+description = "Allows users with a role (specified in 'Permissions') to edit/delete other users with a specified role.  Also provides control over user creation."
+core = 7.x
+
+files[] = administerusersbyrole.test
+files[] = views/administerusersbyrole_handler_field_user_link_edit.inc
+files[] = views/administerusersbyrole_handler_field_user_link_cancel.inc
